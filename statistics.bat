@@ -1,0 +1,1 @@
+dir %1 /a /b /o >C:\Users\SophiaLLY\Desktop\FileList.txt
