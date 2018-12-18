@@ -103,7 +103,7 @@ def readFile():
 ### 4 类
 
 ```python
-class Calculator:       #首字母要大写，冒号不能缺
+class Calculator（Object）:       #首字母要大写，冒号不能缺
     name='Good Calculator'  #该行为class的属性
     price=18
     def add(self,x,y):
@@ -144,6 +144,8 @@ del cal
 注意事项如下：（1）、类的init方法中**新增的属性是类内的属性**，不管外面有没有声明。
 
 ​			（2）、删除使用del。
+
+​			（3）、类的动态属性在类内类外都可以直接添加，但是在外面通过实例添加 的时候类本身不添加上。
 
 ### 5基本类型
 
