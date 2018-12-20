@@ -26,5 +26,5 @@ class Sample:
 # with Sample() as e:
 #     print("jieguo",0/0)
 
-
-    
+print(1)
+triangles(3)

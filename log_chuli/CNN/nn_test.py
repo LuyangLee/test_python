@@ -43,5 +43,4 @@ with tf.Session() as sess:
             run_options = tf.RunOptions(trace_level = tf.RunOptions.FULL_TRACE)
             run_metadata = tf.RunMetadata()
             total_entropy = sess.run(entropy, feed_dict = {x_input:X, y_input:Y}, options = run_options, run_metadata = run_metadata)
-            train_writer.add_run_metadata(run_metadata,i)
             print(i,total_entropy)
