@@ -1,3 +1,5 @@
+# -*- coding: UTF-8 -*-
+
 import jieba
 
 seg_list = jieba.cut("没有什么能够阻挡")
