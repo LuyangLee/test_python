@@ -1,1 +1,6 @@
-*/.vscode/
+# ignore the basic vscode 
+/.vscode/
+
+/*.docx
+
+/*.exe
