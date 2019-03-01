@@ -10,6 +10,11 @@
         "system_error": "cpp",
         "type_traits": "cpp",
         "xlocmon": "cpp",
-        "xstddef": "cpp"
-    }
+        "xstddef": "cpp",
+        "xstring": "cpp",
+        "ostream": "cpp",
+        "istream": "cpp",
+        "string": "cpp"
+    },
+    "python.linting.pylintEnabled": true
 }

@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}\\regularTask\\day3.exe",
+            "program": "${workspaceFolder}\\regularTask\\execute\\day5.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

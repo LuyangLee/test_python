@@ -4,7 +4,11 @@
 using namespace std;
 const int maxsize = 100;
 
-
+/*
+    首先给出数组长度和要解决n个问题,
+    然后给出数组，最后给出要查找的数字，返回是否找到
+    经过n个循环后重新开始循环。
+*/
 int main(int argc, char const *argv[])
 {
     int num, q, i, a[maxsize];

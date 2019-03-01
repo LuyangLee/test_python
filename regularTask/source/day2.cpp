@@ -21,11 +21,34 @@ ostream& operator <<(ostream &out, const Point &a)
     return out;
 }
 
+istream& operator >>(istream& in, Point &a)
+{
+    in >> a.x >> a.y;
+    return in;
+}
+
+bool operator ==(const Point& a, const Point& b)
+{
+    return (a.x == b.x) && (a.y == b.y) ? true : false; 
+}
+
 int main()
 {
-    Point a(1,5);
-    Point b(2,5);
-    cout << a + b;
+    Point a, b;
+    while (cin >> a)
+    {
+        cout << "b will be inputed"<< endl;
+        while(cin >> b)
+        {
+            cout<< a << endl;
+            cout << b << endl;
+            if (a == b) 
+                cout << a + b << endl;
+            else   
+                break;
+        }   
+        cout<< "x will be input" << endl;
+    }
     /*
     string line;
     while(getline(cin, line))

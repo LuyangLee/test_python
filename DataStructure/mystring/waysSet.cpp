@@ -4,17 +4,19 @@ using namespace std;
 
 void zsgc()
 {
-    const char* c1 = "basic1";
-    const char* c2 = "reinforce1";
+    const char* c1 = "basic";
+    const char* c2 = "reinforce";
     string s1;
     string s2("0123456");
+    s2.replace(0, 1, c2);
+    s2.insert(1, c1);
     string s3(s2, 3, 4);
-    cout << "beginning value is "<< s1 << '\t' 
-        << s2 << '\t'
-        << s3 << endl;
-    s1.assign(c1);
-    s1.append(c2, 4);
-    s1.assign(c1);
+    // cout << "beginning value is "<< s1 << '\t' 
+    //     << s2 << '\t'
+    //     << s3 << endl;
+    // s1.assign(c1);
+    // s1.append(c2, 4);
+    // s1.assign(c1);
     // s1.append(s2, 2, 1);
     // s1.insert(0, c2);
     // s1.replace(0,5, c2);   // make former string from 0 ~ 5 replace with c2(add extral space)
