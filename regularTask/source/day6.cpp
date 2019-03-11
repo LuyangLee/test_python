@@ -1,37 +1,24 @@
+// Header:
+//     null
+// summary:
+//     basic C++ gramma declaration and definition and initialization
+// Author:
+//     sophialee
+// Date:
+//     2019-3-10
 #include <iostream>
 #include <string>
+#include "day5.cpp"
 using namespace std;
-
-class Point
-{
-    public:
-        int Px, Py;
-        Point(int x, int y):Px(x), Py(y){}
-};
-
-Point operator +(const Point &a, const Point &b)
-{
-    return Point(a.Px + b.Px, a.Py + b.Py);
-}
-
-ostream& operator <<(ostream& out, const Point& a)
-{
-    out << "(" << a.Px << ","<< a.Py << ")"<<endl;
-    return out;
-}
-
-istream& operator >>(istream& in, const Point &a)
-{
-    in >> a.x >>
-}
-
+int a ;
+extern int an;
+extern const int ndata;
 int main()
 {
-    // int x = 0;
-    // while(cin >> x)
-    //     cout << x <<endl;
-    Point x(1, 2);
-    Point y(1, 3);
-    cout<< x + y << endl;
+    int b;
+    cout << a << endl;
+    cout << b << endl;
+    cout << an << endl;
+    cout << ndata << endl;
     return 0;
 }
